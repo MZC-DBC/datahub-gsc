@@ -231,7 +231,7 @@ export const HomePageHeader = () => {
                 <WelcomeText>
                     {!!user && (
                         <>
-                            환영합니다, <b>{entityRegistry.getDisplayName(EntityType.CorpUser, user)}</b>.
+                            환영합니다 , <b>{entityRegistry.getDisplayName(EntityType.CorpUser, user)}</b>.
                         </>
                     )}
                 </WelcomeText>
