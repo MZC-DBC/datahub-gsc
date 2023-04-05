@@ -86,7 +86,7 @@ export function HeaderLinks(props: Props) {
                             <Tooltip title="View DataHub usage analytics">
                                 <NavTitleContainer>
                                     <BarChartOutlined />
-                                    <NavTitleText>Analytics</NavTitleText>
+                                    <NavTitleText>데이터 분석</NavTitleText>
                                 </NavTitleContainer>
                             </Tooltip>
                         </Button>
@@ -100,7 +100,7 @@ export function HeaderLinks(props: Props) {
                             <Tooltip title="Connect DataHub to your organization's data sources">
                                 <NavTitleContainer>
                                     <ApiOutlined />
-                                    <NavTitleText>Ingestion</NavTitleText>
+                                    <NavTitleText>데이터 수집</NavTitleText>
                                 </NavTitleContainer>
                             </Tooltip>
                         </Button>
@@ -115,9 +115,9 @@ export function HeaderLinks(props: Props) {
                             <Link to="/glossary">
                                 <NavTitleContainer>
                                     <BookOutlined style={{ fontSize: '14px', fontWeight: 'bold' }} />
-                                    <NavTitleText>Glossary</NavTitleText>
+                                    <NavTitleText>데이터 사전</NavTitleText>
                                 </NavTitleContainer>
-                                <NavTitleDescription>View and modify your data dictionary</NavTitleDescription>
+                                <NavTitleDescription>데이터 사전 보기 및 수정</NavTitleDescription>
                             </Link>
                         </MenuItem>
                         {showDomains && (
@@ -125,9 +125,9 @@ export function HeaderLinks(props: Props) {
                                 <Link to="/domains">
                                     <NavTitleContainer>
                                         <FolderOutlined style={{ fontSize: '14px', fontWeight: 'bold' }} />
-                                        <NavTitleText>Domains</NavTitleText>
+                                        <NavTitleText>도메인</NavTitleText>
                                     </NavTitleContainer>
-                                    <NavTitleDescription>Manage related groups of data assets</NavTitleDescription>
+                                    <NavTitleDescription>관련 데이터 자산 그룹 관리</NavTitleDescription>
                                 </Link>
                             </MenuItem>
                         )}
@@ -136,7 +136,7 @@ export function HeaderLinks(props: Props) {
             >
                 <LinkWrapper>
                     <Button type="text">
-                        <SolutionOutlined /> Govern <DownOutlined style={{ fontSize: '6px' }} />
+                        <SolutionOutlined /> 데이터 거버넌스 <DownOutlined style={{ fontSize: '6px' }} />
                     </Button>
                 </LinkWrapper>
             </Dropdown>
