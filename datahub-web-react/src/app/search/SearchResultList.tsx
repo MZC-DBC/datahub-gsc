@@ -105,7 +105,7 @@ export const SearchResultList = ({
                                 description={`No results found for "${query}"`}
                             />
                             <Button onClick={() => navigateToSearchUrl({ query: '*', page: 0, history })}>
-                                <RocketOutlined /> 전체 탐색
+                                <RocketOutlined /> Explore all
                             </Button>
                         </NoDataContainer>
                     ),

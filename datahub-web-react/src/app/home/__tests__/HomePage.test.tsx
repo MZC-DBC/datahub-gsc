@@ -80,7 +80,7 @@ describe('HomePage', () => {
                 </TestPageContainer>
             </MockedProvider>,
         );
-        await waitFor(() => expect(getByText('데이터 탐색을 시작하세요.')).toBeInTheDocument());
+        await waitFor(() => expect(getByText('Try searching for')).toBeInTheDocument());
         expect(queryAllByText('Yet Another Dataset').length).toBeGreaterThanOrEqual(1);
         expect(queryAllByText('Fourth Test Dataset').length).toBeGreaterThanOrEqual(1);
     });

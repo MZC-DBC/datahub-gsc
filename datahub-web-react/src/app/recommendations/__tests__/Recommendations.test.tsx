@@ -25,7 +25,7 @@ describe('Recommendations', () => {
             </MockedProvider>,
         );
         await waitFor(() => expect(getByText('Datasets')).toBeInTheDocument());
-        await waitFor(() => expect(getByText('Data 탐색')).toBeInTheDocument());
+        await waitFor(() => expect(getByText('Explore your data')).toBeInTheDocument());
         await waitFor(() => expect(getByText('Top Platforms')).toBeInTheDocument());
         await waitFor(() => expect(getByText('Snowflake')).toBeInTheDocument());
         await waitFor(() => expect(getByText('Popular Tags')).toBeInTheDocument());
