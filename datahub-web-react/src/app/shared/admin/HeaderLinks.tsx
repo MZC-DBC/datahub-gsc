@@ -27,8 +27,8 @@ const LinksWrapper = styled.div<{ areLinksHidden?: boolean }>`
     transition: opacity 0.5s;
 
     ${(props) =>
-    props.areLinksHidden &&
-    `
+        props.areLinksHidden &&
+        `
         opacity: 0;
         width: 0;
     `}
