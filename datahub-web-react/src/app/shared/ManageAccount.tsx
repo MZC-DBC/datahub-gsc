@@ -64,7 +64,7 @@ export const ManageAccount = ({ urn: _urn, pictureLink: _pictureLink, name }: Pr
     };
     const version = config?.appVersion;
     const menu = (
-        <Menu style={{ width: '120px' }}>            
+        <Menu style={{ width: '120px' }}>
             {version && (
                 <MenuItem key="version" disabled style={{ color: '#8C8C8C' }}>
                     {version}
@@ -77,7 +77,7 @@ export const ManageAccount = ({ urn: _urn, pictureLink: _pictureLink, name }: Pr
                     rel="noopener noreferrer"
                     tabIndex={0}
                 >
-                    개인 프로필
+                    Your Profile
                 </a>
             </MenuItem>
             <Menu.Divider />
@@ -104,7 +104,7 @@ export const ManageAccount = ({ urn: _urn, pictureLink: _pictureLink, name }: Pr
             <Menu.Divider />
             <MenuItem danger key="logout" tabIndex={0}>
                 <a href="/logOut" onClick={handleLogout} data-testid="log-out-menu-item">
-                    로그 아웃
+                    Sign Out
                 </a>
             </MenuItem>
         </Menu>
