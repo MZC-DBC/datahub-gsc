@@ -35,7 +35,7 @@ const Background = styled.div`
 const WelcomeText = styled(Typography.Text)`
     font-size: 16px;
     color: ${(props) =>
-    props.theme.styles['homepage-text-color'] || props.theme.styles['homepage-background-lower-fade']};
+        props.theme.styles['homepage-text-color'] || props.theme.styles['homepage-background-lower-fade']};
 `;
 
 const styles = {
@@ -231,7 +231,7 @@ export const HomePageHeader = () => {
                 <WelcomeText>
                     {!!user && (
                         <>
-                            Welcome back, <b>{entityRegistry.getDisplayName(EntityType.CorpUser, user)}</b>.
+                            환영합니다 , <b>{entityRegistry.getDisplayName(EntityType.CorpUser, user)}</b>.
                         </>
                     )}
                 </WelcomeText>
