@@ -58,13 +58,13 @@ type Props = {
 };
 
 export const SearchResultList = ({
-    query,
-    searchResults,
-    totalResultCount,
-    isSelectMode,
-    selectedEntities,
-    setSelectedEntities,
-}: Props) => {
+                                     query,
+                                     searchResults,
+                                     totalResultCount,
+                                     isSelectMode,
+                                     selectedEntities,
+                                     setSelectedEntities,
+                                 }: Props) => {
     const history = useHistory();
     const entityRegistry = useEntityRegistry();
     const selectedEntityUrns = selectedEntities.map((entity) => entity.urn);
