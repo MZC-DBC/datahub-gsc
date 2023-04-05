@@ -4,6 +4,6 @@ describe('login', () => {
     cy.get('input[data-testid=username]').type(Cypress.env('ADMIN_USERNAME'));
     cy.get('input[data-testid=password]').type(Cypress.env('ADMIN_PASSWORD'));
     cy.contains('Sign In').click();
-    cy.contains('환영합니다 , DataHub');
+    cy.contains('111환영합니다 , DataHub');
   });
 })
