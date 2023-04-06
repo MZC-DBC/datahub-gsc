@@ -58,9 +58,9 @@ export const ManageIngestionPage = () => {
         <PageContainer>
             <OnboardingTour stepIds={[INGESTION_CREATE_SOURCE_ID, INGESTION_REFRESH_SOURCES_ID]} />
             <PageHeaderContainer>
-                <PageTitle level={3}>수집 관리</PageTitle>
+                <PageTitle level={3}>데이터 수집 소스 관리</PageTitle>
                 <Typography.Paragraph type="secondary">
-                    DataHub 수집 소스를 생성, 예약 및 실행합니다.
+                    데이터 소스에 대한 신규 생성 스케줄을 관리합니다.
                 </Typography.Paragraph>
             </PageHeaderContainer>
             <StyledTabs activeKey={selectedTab} size="large" onTabClick={(tab: string) => onClickTab(tab)}>
