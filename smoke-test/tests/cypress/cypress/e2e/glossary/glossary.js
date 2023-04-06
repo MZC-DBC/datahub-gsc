@@ -9,7 +9,7 @@ describe("glossary", () => {
         cy.goToGlossaryList();
 
         cy.clickOptionWithText("Add Term");
-        cy.addViaModal(glossaryTerm, "Create Glossary Term");
+        cy.addViaModal(glossaryTerm, "비즈니스 용어 사전 신규 생성");
 
         cy.clickOptionWithText("Add Term Group");
         cy.addViaModal(glossaryTermGroup, "Create Term Group");

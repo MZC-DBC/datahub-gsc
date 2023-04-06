@@ -128,7 +128,7 @@ function CreateGlossaryEntityModal(props: Props) {
                     setCreateButtonDisabled(form.getFieldsError().some((field) => field.errors.length > 0))
                 }
             >
-                <Form.Item label={<Typography.Text strong>Name</Typography.Text>}>
+                <Form.Item label={<Typography.Text strong>비지니스 용어명</Typography.Text>}>
                     <StyledItem
                         name="name"
                         rules={[
@@ -147,7 +147,7 @@ function CreateGlossaryEntityModal(props: Props) {
                 <Form.Item
                     label={
                         <Typography.Text strong>
-                            Parent <OptionalWrapper>(optional)</OptionalWrapper>
+                            상위 비지니스 용어<OptionalWrapper>(옵션)</OptionalWrapper>
                         </Typography.Text>
                     }
                 >
@@ -161,13 +161,13 @@ function CreateGlossaryEntityModal(props: Props) {
                 <StyledItem
                     label={
                         <Typography.Text strong>
-                            Documentation <OptionalWrapper>(optional)</OptionalWrapper>
+                            문서 <OptionalWrapper>(옵션)</OptionalWrapper>
                         </Typography.Text>
                     }
                 >
                     <StyledButton type="link" onClick={() => setIsDocumentationModalVisible(true)}>
                         <EditOutlined />
-                        {documentation ? 'Edit' : 'Add'} Documentation
+                        {documentation ? '편집' : '추가'} 문서
                     </StyledButton>
                     {isDocumentationModalVisible && (
                         <DescriptionModal

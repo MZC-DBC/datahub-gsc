@@ -123,8 +123,8 @@ function BusinessGlossaryPage() {
                     {hasTermsOrNodes && <GlossaryEntitiesList nodes={nodes || []} terms={terms || []} />}
                     {!(termsLoading || nodesLoading) && !hasTermsOrNodes && (
                         <EmptyGlossarySection
-                            title="Empty Glossary"
-                            description="Create Terms and Term Groups to organize data assets using a shared vocabulary."
+                            title="비지니스 용어 사전이 존재하지 않습니다."
+                            description="데이터 자산에 대한 비지니스 용어 사전과 그룹을 생성하기 바랍니다."
                             refetchForTerms={refetchForTerms}
                             refetchForNodes={refetchForNodes}
                         />

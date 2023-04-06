@@ -359,10 +359,10 @@ export const IngestionSourceList = () => {
                 <TabToolbar>
                     <div>
                         <Button id={INGESTION_CREATE_SOURCE_ID} type="text" onClick={() => setIsBuildingSource(true)}>
-                            <PlusOutlined /> Create new source
+                            <PlusOutlined /> 데이터 소스 신규 생성
                         </Button>
                         <Button id={INGESTION_REFRESH_SOURCES_ID} type="text" onClick={onRefresh}>
-                            <RedoOutlined /> Refresh
+                            <RedoOutlined /> 데이터 소스 갱신
                         </Button>
                     </div>
                     <FilterWrapper>
