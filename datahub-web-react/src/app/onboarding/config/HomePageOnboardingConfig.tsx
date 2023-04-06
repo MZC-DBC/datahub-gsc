@@ -116,7 +116,7 @@ export const HomePageOnboardingConfig: OnboardingStep[] = [
                     collaborating around the data most important to you.
                 </p>
                 <p>
-                    Not sure where to start? Click on <strong>Explore All</strong>!
+                    Not sure where to start? Click on <strong>모두 살펴보기</strong>!
                 </p>
             </Typography.Paragraph>
         ),

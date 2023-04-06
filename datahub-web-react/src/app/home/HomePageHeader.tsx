@@ -270,9 +270,9 @@ export const HomePageHeader = () => {
                     {searchResultsToShow && searchResultsToShow.length > 0 && (
                         <SuggestionsContainer>
                             <SuggestionsHeader>
-                                <SuggestedQueriesText strong>Try searching for</SuggestedQueriesText>
+                                <SuggestedQueriesText strong>검색해보세요</SuggestedQueriesText>
                                 <ExploreAllButton type="link" onClick={onClickExploreAll}>
-                                    Explore all <StyledRightOutlined />
+                                    모두 살펴보기 <StyledRightOutlined />
                                 </ExploreAllButton>
                             </SuggestionsHeader>
                             <SuggestionTagContainer>

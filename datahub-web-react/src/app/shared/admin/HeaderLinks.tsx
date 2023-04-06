@@ -83,7 +83,7 @@ export function HeaderLinks(props: Props) {
                 <LinkWrapper>
                     <Link to="/analytics">
                         <Button type="text">
-                            <Tooltip title="View DataHub usage analytics">
+                            <Tooltip title="데이터 사용량 분석">
                                 <NavTitleContainer>
                                     <BarChartOutlined />
                                     <NavTitleText>데이터 분석</NavTitleText>
@@ -97,7 +97,7 @@ export function HeaderLinks(props: Props) {
                 <LinkWrapper>
                     <Link to="/ingestion">
                         <Button id={HOME_PAGE_INGESTION_ID} type="text">
-                            <Tooltip title="Connect DataHub to your organization's data sources">
+                            <Tooltip title="데이터를 조직의 데이터 소스에 연결">
                                 <NavTitleContainer>
                                     <ApiOutlined />
                                     <NavTitleText>데이터 수집</NavTitleText>
@@ -144,7 +144,7 @@ export function HeaderLinks(props: Props) {
                 <LinkWrapper style={{ marginRight: 12 }}>
                     <Link to="/settings">
                         <Button type="text">
-                            <Tooltip title="Manage your DataHub settings">
+                            <Tooltip title="데이터 설정 관리">
                                 <SettingOutlined />
                             </Tooltip>
                         </Button>

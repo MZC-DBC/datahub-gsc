@@ -67,7 +67,7 @@ const EXACT_AUTOCOMPLETE_OPTION_TYPE = 'exact_query';
 const RECOMMENDED_QUERY_OPTION_TYPE = 'recommendation';
 
 const QUICK_FILTER_AUTO_COMPLETE_OPTION = {
-    label: <EntityTypeLabel>Filter by</EntityTypeLabel>,
+    label: <EntityTypeLabel>필터링 기준</EntityTypeLabel>,
     options: [
         {
             value: '',
