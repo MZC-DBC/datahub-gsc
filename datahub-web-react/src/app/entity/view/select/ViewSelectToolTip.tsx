@@ -18,8 +18,8 @@ export const ViewSelectToolTip = ({ children, visible = true }: Props) => {
             placement="right"
             title={
                 <>
-                    <HeaderText>Select a View to apply to search results.</HeaderText>
-                    <div>Views help narrow down search results to those that matter most to you.</div>
+                    <HeaderText>검색 결과에 적용할 보기를 선택합니다.</HeaderText>
+                    <div>보기를 사용하면 가장 중요한 항목으로 검색 결과를 좁힐 수 있습니다.</div>
                 </>
             }
         >
