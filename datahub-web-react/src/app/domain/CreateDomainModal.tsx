@@ -74,7 +74,7 @@ export default function CreateDomainModal({ onClose, onCreate }: Props) {
 
     return (
         <Modal
-            title="Create new Domain"
+            title="데이터 자산 분류 신규 생성"
             visible
             onCancel={onClose}
             footer={
@@ -101,21 +101,21 @@ export default function CreateDomainModal({ onClose, onCreate }: Props) {
                     setCreateButtonEnabled(!form.getFieldsError().some((field) => field.errors.length > 0));
                 }}
             >
-                <Form.Item label={<Typography.Text strong>Name</Typography.Text>}>
-                    <Typography.Paragraph>Give your new Domain a name. </Typography.Paragraph>
+                <Form.Item label={<Typography.Text strong>데이터 자산 분류명</Typography.Text>}>
+                    <Typography.Paragraph>신규 데이터 자산 분류 이름을 신규 생성하세요.</Typography.Paragraph>
                     <Form.Item
                         name={NAME_FIELD_NAME}
                         rules={[
                             {
                                 required: true,
-                                message: 'Enter a Domain name.',
+                                message: '데이터 자산 분류명.',
                             },
                             { whitespace: true },
                             { min: 1, max: 150 },
                         ]}
                         hasFeedback
                     >
-                        <Input data-testid="create-domain-name" placeholder="A name for your domain" />
+                        <Input data-testid="create-domain-name" placeholder="데이터 자산 분류 이름" />
                     </Form.Item>
                     <SuggestedNamesGroup>
                         {SUGGESTED_DOMAIN_NAMES.map((name) => {
@@ -135,9 +135,9 @@ export default function CreateDomainModal({ onClose, onCreate }: Props) {
                         })}
                     </SuggestedNamesGroup>
                 </Form.Item>
-                <Form.Item label={<Typography.Text strong>Description</Typography.Text>}>
+                <Form.Item label={<Typography.Text strong>설명</Typography.Text>}>
                     <Typography.Paragraph>
-                        An optional description for your new domain. You can change this later.
+                        신규 데이터 자산 분류에 대한 선택적 설명입니다. 나중에 변경할 수 있습니다.
                     </Typography.Paragraph>
                     <Form.Item
                         name={DESCRIPTION_FIELD_NAME}
