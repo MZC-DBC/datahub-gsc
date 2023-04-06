@@ -77,7 +77,7 @@ export const ManageAccount = ({ urn: _urn, pictureLink: _pictureLink, name }: Pr
                     rel="noopener noreferrer"
                     tabIndex={0}
                 >
-                    Your Profile
+                   내 정보
                 </a>
             </MenuItem>
             <Menu.Divider />
