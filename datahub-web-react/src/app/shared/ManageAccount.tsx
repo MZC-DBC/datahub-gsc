@@ -62,7 +62,7 @@ export const ManageAccount = ({ urn: _urn, pictureLink: _pictureLink, name }: Pr
         Cookies.remove(GlobalCfg.CLIENT_AUTH_COOKIE);
         userContext.updateLocalState({ selectedViewUrn: undefined });
     };
-    const version = config?.appVersion;
+    //const version = config?.appVersion;
     const menu = (
         <Menu style={{ width: '120px' }}>
             {/*{version && (*/}
