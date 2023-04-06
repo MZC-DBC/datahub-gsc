@@ -25,7 +25,7 @@ export const ManageDomainsPage = () => {
     return (
         <PageContainer>
             <PageHeaderContainer>
-                <PageTitle level={3}>Domains</PageTitle>
+                <PageTitle level={3}>데이터 자산 분류</PageTitle>
                 <Typography.Paragraph type="secondary">
                     View your DataHub Domains. Take administrative actions.
                 </Typography.Paragraph>
