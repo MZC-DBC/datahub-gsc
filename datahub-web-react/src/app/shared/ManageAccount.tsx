@@ -62,15 +62,15 @@ export const ManageAccount = ({ urn: _urn, pictureLink: _pictureLink, name }: Pr
         Cookies.remove(GlobalCfg.CLIENT_AUTH_COOKIE);
         userContext.updateLocalState({ selectedViewUrn: undefined });
     };
-    //const version = config?.appVersion;
+    const version = config?.appVersion;
     const menu = (
         <Menu style={{ width: '120px' }}>
-            {/*{version && (*/}
-            {/*    <MenuItem key="version" disabled style={{ color: '#8C8C8C' }}>*/}
-            {/*        {version}*/}
-            {/*    </MenuItem>*/}
-            {/*)}*/}
-            {/*<Menu.Divider />*/}
+            {version && (
+                <MenuItem key="version" disabled style={{ color: '#8C8C8C' }}>
+                    {version}
+                </MenuItem>
+            )}
+            <Menu.Divider />
             <MenuItem key="profile">
                 <a
                     href={`/${entityRegistry.getPathName(EntityType.CorpUser)}/${_urn}`}
