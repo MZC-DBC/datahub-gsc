@@ -66,7 +66,7 @@ type Props = {
 
 export const IngestionSourceBuilderModal = ({ initialState, visible, onSubmit, onCancel }: Props) => {
     const isEditing = initialState !== undefined;
-    const titleText = isEditing ? 'Edit Ingestion Source' : 'New Ingestion Source';
+    const titleText = isEditing ? '데이터 수집 편집' : '데이터 수집 신규 생성';
     const initialStep = isEditing
         ? IngestionSourceBuilderStep.DEFINE_RECIPE
         : IngestionSourceBuilderStep.SELECT_TEMPLATE;
