@@ -8,11 +8,11 @@ describe("glossary", () => {
         cy.login();
         cy.goToGlossaryList();
 
-        cy.clickOptionWithText("Add Term");
+        cy.clickOptionWithText("비지니스 용어 등록");
         cy.addViaModal(glossaryTerm, "비즈니스 용어 사전 신규 생성");
 
-        cy.clickOptionWithText("Add Term Group");
-        cy.addViaModal(glossaryTermGroup, "Create Term Group");
+        cy.clickOptionWithText("비지니스 용어 그룹 등록");
+        cy.addViaModal(glossaryTermGroup, "비즈니스 용어 사전 그룹 신규 생성");
 
         cy.addTermToDataset(urn, datasetName, glossaryTerm);
 
