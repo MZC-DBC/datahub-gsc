@@ -132,7 +132,7 @@ export const DomainsList = () => {
             <DomainsContainer>
                 <TabToolbar>
                     <Button id={DOMAINS_CREATE_DOMAIN_ID} type="text" onClick={() => setIsCreatingDomain(true)}>
-                        <PlusOutlined /> New Domain
+                        <PlusOutlined /> 신규 데이터 자산 분류
                     </Button>
                     <SearchBar
                         initialQuery={query || ''}

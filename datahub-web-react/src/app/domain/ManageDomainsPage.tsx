@@ -27,7 +27,7 @@ export const ManageDomainsPage = () => {
             <PageHeaderContainer>
                 <PageTitle level={3}>데이터 자산 분류</PageTitle>
                 <Typography.Paragraph type="secondary">
-                    View your DataHub Domains. Take administrative actions.
+                    데이터 자산 분류 조회. 관리자 업무
                 </Typography.Paragraph>
             </PageHeaderContainer>
             <ListContainer>

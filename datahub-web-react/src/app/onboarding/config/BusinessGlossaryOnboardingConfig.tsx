@@ -9,15 +9,16 @@ export const BUSINESS_GLOSSARY_CREATE_TERM_GROUP_ID = 'business-glossary-create-
 export const BusinessGlossaryOnboardingConfig: OnboardingStep[] = [
     {
         id: BUSINESS_GLOSSARY_INTRO_ID,
-        title: 'Business Glossary 📖',
+        title: '비지니스 용어 사전 📖',
         content: (
             <Typography.Paragraph>
                 <p>
-                    Welcome to the <strong>Business Glossary</strong>!
+                    환영합니다. <strong>비지니스 용어 사전</strong>!
                 </p>
                 <p>
-                    The Glossary is a collection of structured, standarized labels you can use to categorize data
-                    assets. You can view and create both <strong>Terms</strong> and <strong>Term Groups</strong> here.
+
+                    비즈니스 용어 사전은 데이터 자산에 대해서 구조화되고 표준화 된 용어에 집합입니다.
+                    <strong>비지니스 용어</strong> 및 <strong>비지니스 용어 그룹</strong> 조회와 생성이 가능합니다.
                 </p>
             </Typography.Paragraph>
         ),
