@@ -64,7 +64,7 @@ export default function GlossaryRelatedTermsResult({ glossaryRelatedTermType, gl
                         </Typography.Title>
                         {canEditRelatedTerms && (
                             <Button type="text" onClick={() => setIsShowingAddModal(true)}>
-                                <PlusOutlined /> Add Terms
+                                <PlusOutlined /> 비지니스 용어 등록
                             </Button>
                         )}
                     </TitleContainer>
