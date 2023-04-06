@@ -102,7 +102,7 @@ export const SearchResultList = ({
                         <NoDataContainer>
                             <Empty
                                 style={{ fontSize: 18, color: ANTD_GRAY[8] }}
-                                description={`No results found for "${query}"`}
+                                description={` "${query}"에 대한 검색 결과가 없습니다`}
                             />
                             <Button onClick={() => navigateToSearchUrl({ query: '*', page: 0, history })}>
                                 <RocketOutlined /> 전체 탐색

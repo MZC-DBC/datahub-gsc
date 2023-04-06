@@ -44,7 +44,7 @@ export const SaveAsViewButton = ({ onClick }: Props) => {
         >
             <StyledButton type="link" onClick={onClick}>
                 <StyledFilterOutlined />
-                <SaveAsViewText>Save as View</SaveAsViewText>
+                <SaveAsViewText>보기로 저장</SaveAsViewText>
             </StyledButton>
         </Tooltip>
     );
