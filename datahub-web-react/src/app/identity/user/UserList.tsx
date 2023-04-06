@@ -119,7 +119,7 @@ export const UserList = () => {
                             type="text"
                             onClick={() => setIsViewingInviteToken(true)}
                         >
-                            <UsergroupAddOutlined /> Invite Users
+                            <UsergroupAddOutlined /> 사용자 추가
                         </Button>
                     </div>
                     <SearchBar
