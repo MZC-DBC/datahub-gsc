@@ -100,7 +100,7 @@ function BusinessGlossaryPage() {
                 )}
                 <MainContentWrapper>
                     <HeaderWrapper>
-                        <Typography.Title level={3}>Business Glossary</Typography.Title>
+                        <Typography.Title level={3}>비지니스 용어 사전</Typography.Title>
                         <div>
                             <Button
                                 id={BUSINESS_GLOSSARY_CREATE_TERM_ID}
@@ -108,7 +108,7 @@ function BusinessGlossaryPage() {
                                 type="text"
                                 onClick={() => setIsCreateTermModalVisible(true)}
                             >
-                                <PlusOutlined /> Add Term
+                                <PlusOutlined /> 비지니스 용어 등록
                             </Button>
                             <Button
                                 id={BUSINESS_GLOSSARY_CREATE_TERM_GROUP_ID}
@@ -116,7 +116,7 @@ function BusinessGlossaryPage() {
                                 type="text"
                                 onClick={() => setIsCreateNodeModalVisible(true)}
                             >
-                                <PlusOutlined /> Add Term Group
+                                <PlusOutlined /> 비지니스 용어 그룹 등록
                             </Button>
                         </div>
                     </HeaderWrapper>

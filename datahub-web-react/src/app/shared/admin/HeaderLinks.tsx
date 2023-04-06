@@ -86,7 +86,7 @@ export function HeaderLinks(props: Props) {
                             <Tooltip title="데이터 사용량 분석">
                                 <NavTitleContainer>
                                     <BarChartOutlined />
-                                    <NavTitleText>데이터 분석</NavTitleText>
+                                    <NavTitleText>통계 분석</NavTitleText>
                                 </NavTitleContainer>
                             </Tooltip>
                         </Button>
@@ -115,9 +115,9 @@ export function HeaderLinks(props: Props) {
                             <Link to="/glossary">
                                 <NavTitleContainer>
                                     <BookOutlined style={{ fontSize: '14px', fontWeight: 'bold' }} />
-                                    <NavTitleText>데이터 사전</NavTitleText>
+                                    <NavTitleText>비지니스 용어 사전</NavTitleText>
                                 </NavTitleContainer>
-                                <NavTitleDescription>데이터 사전 보기 및 수정</NavTitleDescription>
+                                <NavTitleDescription>비지니스 용어에 대한 조회와 수정</NavTitleDescription>
                             </Link>
                         </MenuItem>
                         {showDomains && (
@@ -125,9 +125,9 @@ export function HeaderLinks(props: Props) {
                                 <Link to="/domains">
                                     <NavTitleContainer>
                                         <FolderOutlined style={{ fontSize: '14px', fontWeight: 'bold' }} />
-                                        <NavTitleText>도메인</NavTitleText>
+                                        <NavTitleText>데이터 자산 분류</NavTitleText>
                                     </NavTitleContainer>
-                                    <NavTitleDescription>관련 데이터 자산 그룹 관리</NavTitleDescription>
+                                    <NavTitleDescription>데이터 자산 그룹 관리</NavTitleDescription>
                                 </Link>
                             </MenuItem>
                         )}
