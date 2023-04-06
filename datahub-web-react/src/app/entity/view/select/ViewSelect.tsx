@@ -161,7 +161,7 @@ export const ViewSelect = () => {
                     style={selectStyle}
                     onChange={() => (selectRef?.current as any)?.blur()}
                     value={(foundSelectedUrn && selectedUrn) || undefined}
-                    placeholder="Select a View"
+                    placeholder="보기 선택"
                     onSelect={onSelectView}
                     onClear={onClear}
                     allowClear
