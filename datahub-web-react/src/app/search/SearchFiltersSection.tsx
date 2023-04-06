@@ -101,7 +101,7 @@ export const SearchFiltersSection = ({
     return (
         <FiltersContainer>
             <FiltersHeader>
-                <span>Filter</span>
+                <span>필터</span>
                 <span>
                     <Button
                         disabled={onlyShowAdvancedFilters}
@@ -109,7 +109,7 @@ export const SearchFiltersSection = ({
                         onClick={() => setSeeAdvancedFilters(!seeAdvancedFilters)}
                         id={SEARCH_RESULTS_ADVANCED_SEARCH_ID}
                     >
-                        {seeAdvancedFilters ? 'Basic' : 'Advanced'}
+                        {seeAdvancedFilters ? '기본' : '고급'}
                     </Button>
                 </span>
             </FiltersHeader>

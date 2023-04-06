@@ -56,7 +56,7 @@ export const SearchResultsRecommendations = ({ userUrn, query, filters }: Props)
         <>
             {recommendationModules && !!recommendationModules.length && (
                 <RecommendationsContainer>
-                    <RecommendationTitle level={3}>More you may be interested in</RecommendationTitle>
+                    <RecommendationTitle level={3}>더 많은 관심을 가질 수 있습니다.</RecommendationTitle>
                     {recommendationModules &&
                         recommendationModules.map((module) => (
                             <RecommendationContainer>
