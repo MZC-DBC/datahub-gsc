@@ -16,7 +16,6 @@ export const BusinessGlossaryOnboardingConfig: OnboardingStep[] = [
                     환영합니다. <strong>비지니스 용어 사전</strong>!
                 </p>
                 <p>
-
                     비즈니스 용어 사전은 데이터 자산에 대해서 구조화되고 표준화 된 용어에 집합입니다.
                     <strong>비지니스 용어</strong> 및 <strong>비지니스 용어 그룹</strong> 조회와 생성이 가능합니다.
                 </p>
