@@ -26,9 +26,7 @@ export const ManageDomainsPage = () => {
         <PageContainer>
             <PageHeaderContainer>
                 <PageTitle level={3}>데이터 자산 분류</PageTitle>
-                <Typography.Paragraph type="secondary">
-                    데이터 자산 분류 조회. 관리자 업무
-                </Typography.Paragraph>
+                <Typography.Paragraph type="secondary">데이터 자산 분류 조회. 관리자 업무</Typography.Paragraph>
             </PageHeaderContainer>
             <ListContainer>
                 <DomainsList />
