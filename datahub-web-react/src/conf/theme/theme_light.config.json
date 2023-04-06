@@ -26,12 +26,12 @@
         "logoUrl": "/assets/logo.png"
     },
     "content": {
-        "title": "DataHub",
+        "title": "데이터 관리 센터",
         "homepage": {
-            "homepageMessage": "Find data you can count on"
+            "homepageMessage": "신뢰할 수 있는 데이터 찾기"
         },
         "search": {
-            "searchbarMessage": "Search Datasets, People, & more..."
+            "searchbarMessage": "데이터 세트, 사람 등 검색..."
         },
         "menu": {
             "items": [
