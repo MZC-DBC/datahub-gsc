@@ -197,7 +197,7 @@ export default function ViewInviteTokenModal({ visible, onClose }: Props) {
                                 if (window.isSecureContext && navigator.clipboard) {
                                     navigator.clipboard.writeText(inviteLink);
                                 } else {
-                                    const textArea = document.createElement("textarea");
+                                    const textArea = document.createElement('textarea');
                                     textArea.value = inviteLink;
                                     document.body.appendChild(textArea);
                                     textArea.focus();
