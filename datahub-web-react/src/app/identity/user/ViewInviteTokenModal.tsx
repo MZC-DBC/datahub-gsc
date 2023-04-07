@@ -194,7 +194,21 @@ export default function ViewInviteTokenModal({ visible, onClose }: Props) {
                     <Tooltip title="Copy invite link.">
                         <CopyButton
                             onClick={() => {
-                                navigator.clipboard.writeText(inviteLink);
+                                if (window.isSecureContext && navigator.clipboard) {
+                                    navigator.clipboard.writeText(inviteLink);
+                                } else {
+                                    const textArea = document.createElement("textarea");
+                                    textArea.value = inviteLink;
+                                    document.body.appendChild(textArea);
+                                    textArea.focus();
+                                    textArea.select();
+                                    try {
+                                        document.execCommand('copy');
+                                    } catch (err) {
+                                        console.error('Unable to copy to clipboard', err);
+                                    }
+                                    document.body.removeChild(textArea);
+                                }
                                 message.success('Copied invite link to clipboard');
                             }}
                         >
